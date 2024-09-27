@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+
+.content {
+    display: flex;
+}
+
+.content__column img {
+    width: 100%;
+}
+
+.cat__block {
+    width: 95%;
+    background-color: blue;
+}
+
+.dog__block {
+    width: 5%;
+    background-color: green;
+}
+
+.cat__block, .dog__block {
+    padding: 20px;
+}
