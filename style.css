@@ -33,6 +33,7 @@ button {
 
 .content__column {
     height: 400px;
+    padding: 25px;
 }
 
 .content__column img {
@@ -49,8 +50,4 @@ button {
 .dog__block {
     width: 5%;
     background-color: green;
-}
-
-.cat__block, .dog__block {
-    padding: 20px;
 }
