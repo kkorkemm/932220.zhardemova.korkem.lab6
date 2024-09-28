@@ -1,19 +1,22 @@
-function ButtonClick(num) {
-    var leftColumn = document.querySelector('.cat__block');
-    var rightColumn = document.querySelector('.dog__block');
+document.addEventListener('DOMContentLoaded', function() {
+    const leftButton = document.getElementById('leftButton');
+    const centerButton = document.getElementById('centerButton');
+    const rightButton = document.getElementById('rightButton');
+    const leftColumn = document.querySelector('.cat__block');
+    const rightColumn = document.querySelector('.dog__block');
 
-    if (num == 1) {
+    leftButton.addEventListener('click', function() {
         leftColumn.style.width = '95%';
         rightColumn.style.width = '5%';
-    }
+    });
 
-    else if (num == 2) {
+    centerButton.addEventListener('click', function() {
         leftColumn.style.width = '50%';
         rightColumn.style.width = '50%';
-    }
+    });
 
-    else {
+    rightButton.addEventListener('click', function() {
         leftColumn.style.width = '5%';
         rightColumn.style.width = '95%';
-    }
-}
+    });
+});

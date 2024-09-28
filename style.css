@@ -31,8 +31,14 @@ button {
     display: flex;
 }
 
+.content__column {
+    height: 400px;
+}
+
 .content__column img {
+    height: 300px;
     width: 100%;
+    max-width: 500px;
 }
 
 .cat__block {
